@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Import_de_rejets__c</fullName>
+    <externalId>false</externalId>
+    <label>Import d&apos;impayés</label>
+    <referenceTo>Import_de_rejet__c</referenceTo>
+    <relationshipLabel>Impayés Bancaires</relationshipLabel>
+    <relationshipName>Rejets_Bancaires</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

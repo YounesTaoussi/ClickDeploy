@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deep_Clone</fullName>
+    <availability>online</availability>
+    <description>deep clone an insurance policy product; that is, to clone the coverage specs, insured item specs, rating facts, rules, attributes, and pricebook entries of the policy product.</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Deep Clone</masterLabel>
+    <openType>sidebar</openType>
+    <page>vlocity_ins__InsuranceProductCloner</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service__c</fullName>
+    <externalId>false</externalId>
+    <label>Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DCSP</fullName>
+                <default>false</default>
+                <label>DCSP</label>
+            </value>
+            <value>
+                <fullName>Préfecture de police</fullName>
+                <default>false</default>
+                <label>Préfecture de police</label>
+            </value>
+            <value>
+                <fullName>DCPAF</fullName>
+                <default>false</default>
+                <label>DCPAF</label>
+            </value>
+            <value>
+                <fullName>DCCRS</fullName>
+                <default>false</default>
+                <label>DCCRS</label>
+            </value>
+            <value>
+                <fullName>DCPJ</fullName>
+                <default>false</default>
+                <label>DCPJ</label>
+            </value>
+            <value>
+                <fullName>DRCPN</fullName>
+                <default>false</default>
+                <label>DRCPN</label>
+            </value>
+            <value>
+                <fullName>DCRFPN</fullName>
+                <default>false</default>
+                <label>DCRFPN</label>
+            </value>
+            <value>
+                <fullName>Police Municipale</fullName>
+                <default>false</default>
+                <label>Police Municipale</label>
+            </value>
+            <value>
+                <fullName>Préfectures</fullName>
+                <default>false</default>
+                <label>Préfectures</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
