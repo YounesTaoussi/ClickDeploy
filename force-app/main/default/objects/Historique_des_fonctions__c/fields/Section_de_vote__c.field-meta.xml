@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section_de_vote__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Section de vote</label>
+    <referenceTo>Section_de_vote__c</referenceTo>
+    <relationshipLabel>Historiques des fonctions</relationshipLabel>
+    <relationshipName>Historiques_des_fonctions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

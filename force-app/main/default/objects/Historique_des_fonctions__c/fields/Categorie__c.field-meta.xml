@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Categorie__c</fullName>
+    <externalId>false</externalId>
+    <label>Catégorie</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrateurs</fullName>
+                <default>false</default>
+                <label>Administrateurs</label>
+            </value>
+            <value>
+                <fullName>Animateurs</fullName>
+                <default>false</default>
+                <label>Animateurs</label>
+            </value>
+            <value>
+                <fullName>Commission d&apos;audit</fullName>
+                <default>false</default>
+                <label>Commission d&apos;audit</label>
+            </value>
+            <value>
+                <fullName>Commission de Contrôle</fullName>
+                <default>false</default>
+                <label>Commission de Contrôle</label>
+            </value>
+            <value>
+                <fullName>Correspondants</fullName>
+                <default>false</default>
+                <label>Correspondants</label>
+            </value>
+            <value>
+                <fullName>Délégués</fullName>
+                <default>false</default>
+                <label>Délégués</label>
+            </value>
+            <value>
+                <fullName>Délégués Régionaux</fullName>
+                <default>false</default>
+                <label>Délégués Régionaux</label>
+            </value>
+            <value>
+                <fullName>Membres du bureau</fullName>
+                <default>false</default>
+                <label>Membres du bureau</label>
+            </value>
+            <value>
+                <fullName>Membres du CA</fullName>
+                <default>false</default>
+                <label>Membres du CA</label>
+            </value>
+            <value>
+                <fullName>Référents départementaux</fullName>
+                <default>false</default>
+                <label>Référents départementaux</label>
+            </value>
+            <value>
+                <fullName>Retraités</fullName>
+                <default>false</default>
+                <label>Retraités</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvalidSocialSecurityNumber_Account</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($RecordType.Name=&apos;Adhérent&apos; ,IF( BEGINS( Numero_de_securite_sociale__pc ,&apos;1&apos;) ,
+	IF( ISPICKVAL(Salutation , &apos;Mr.&apos;),
+		IF( VALUE(RIGHT(TEXT(YEAR(PersonBirthdate)),2))== VALUE(MID(Numero_de_securite_sociale__pc,2,2)) ,
+			IF(MONTH( PersonBirthdate) == VALUE(MID(Numero_de_securite_sociale__pc,4,2) ),
+false,
+true) ,
+true) ,
+true) ,
+IF( BEGINS( Numero_de_securite_sociale__pc , &apos;2&apos;) ,
+IF( ISPICKVAL(Salutation , &apos;Mme.&apos;) ,
+IF( VALUE(RIGHT(TEXT(YEAR(PersonBirthdate)),2)) == VALUE(MID(Numero_de_securite_sociale__pc,2,2)) ,
+IF( MONTH( PersonBirthdate) == VALUE(MID(Numero_de_securite_sociale__pc,4,2)
+),
+false,
+true) ,
+true) ,
+true),
+true)))</errorConditionFormula>
+    <errorDisplayField>vlocity_ins__Has24x7Service__pc</errorDisplayField>
+    <errorMessage>Ce numéro de sécurité sociale est incorrect.</errorMessage>
+</ValidationRule>
