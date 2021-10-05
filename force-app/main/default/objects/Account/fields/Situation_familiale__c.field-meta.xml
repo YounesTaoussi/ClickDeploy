@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Situation_familiale__c</fullName>
+    <externalId>false</externalId>
+    <label>Situation familiale</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Célibataire</fullName>
+                <default>false</default>
+                <label>Célibataire</label>
+            </value>
+            <value>
+                <fullName>Marié</fullName>
+                <default>false</default>
+                <label>Marié</label>
+            </value>
+            <value>
+                <fullName>Concubinage</fullName>
+                <default>false</default>
+                <label>Concubinage</label>
+            </value>
+            <value>
+                <fullName>Pacsé</fullName>
+                <default>false</default>
+                <label>Pacsé</label>
+            </value>
+            <value>
+                <fullName>Divorcé</fullName>
+                <default>false</default>
+                <label>Divorcé</label>
+            </value>
+            <value>
+                <fullName>Veuf</fullName>
+                <default>false</default>
+                <label>Veuf</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

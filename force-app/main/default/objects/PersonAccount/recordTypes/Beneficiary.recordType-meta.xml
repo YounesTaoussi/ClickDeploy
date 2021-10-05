@@ -212,6 +212,7 @@
         </values>
     </picklistValues>
     <picklistValues>
+
         <picklist>Type</picklist>
         <values>
             <fullName>Adhérent</fullName>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grade__c</fullName>
+    <externalId>false</externalId>
+    <label>Grade</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADS - Cadet</fullName>
+                <default>false</default>
+                <label>ADS - Cadet</label>
+            </value>
+            <value>
+                <fullName>Gardien de la paix</fullName>
+                <default>false</default>
+                <label>Gardien de la paix</label>
+            </value>
+            <value>
+                <fullName>Élève Gardien de la Paix</fullName>
+                <default>false</default>
+                <label>Élève Gardien de la Paix</label>
+            </value>
+            <value>
+                <fullName>Brigadier</fullName>
+                <default>false</default>
+                <label>Brigadier</label>
+            </value>
+            <value>
+                <fullName>Brigadier - chef</fullName>
+                <default>false</default>
+                <label>Brigadier - chef</label>
+            </value>
+            <value>
+                <fullName>Major</fullName>
+                <default>false</default>
+                <label>Major</label>
+            </value>
+            <value>
+                <fullName>Lieutenant</fullName>
+                <default>false</default>
+                <label>Lieutenant</label>
+            </value>
+            <value>
+                <fullName>Capitaine</fullName>
+                <default>false</default>
+                <label>Capitaine</label>
+            </value>
+            <value>
+                <fullName>Commandant</fullName>
+                <default>false</default>
+                <label>Commandant</label>
+            </value>
+            <value>
+                <fullName>Commandant divisionnaire</fullName>
+                <default>false</default>
+                <label>Commandant divisionnaire</label>
+            </value>
+            <value>
+                <fullName>Commissaire</fullName>
+                <default>false</default>
+                <label>Commissaire</label>
+            </value>
+            <value>
+                <fullName>Commissaire divisionnaire</fullName>
+                <default>false</default>
+                <label>Commissaire divisionnaire</label>
+            </value>
+            <value>
+                <fullName>Commissaire général</fullName>
+                <default>false</default>
+                <label>Commissaire général</label>
+            </value>
+            <value>
+                <fullName>Personnel administratif, technique et scientifique</fullName>
+                <default>false</default>
+                <label>Personnel administratif, technique et scientifique</label>
+            </value>
+            <value>
+                <fullName>Policier municipal</fullName>
+                <default>false</default>
+                <label>Policier municipal</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
